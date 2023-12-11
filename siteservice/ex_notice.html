@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard Prototype</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Additional styles if needed */
+      .sidebar-link:hover {
+        background-color: #f3f4f6;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50" style="width: 1920px; height: 1080px">
+    <div class="flex h-full">
+      <!-- Sidebar -->
+      <div class="w-64 bg-white shadow-md">
+        <div class="p-6">
+          <h1 class="text-2xl font-semibold text-gray-700">Hoseo</h1>
+        </div>
+        <nav class="text-gray-700">
+          <a href="#" class="block px-6 py-2 sidebar-link"
+            >서류함기본 관리설명</a
+          >
+          <a href="#" class="block px-6 py-2 sidebar-link"
+            >프로젝트 시작 안내</a
+          >
+          <a href="#" class="block px-6 py-2 sidebar-link">프로젝트 조인승인</a>
+          <a href="#" class="block px-6 py-2 sidebar-link">비상장</a>
+          <a href="#" class="block px-6 py-2 sidebar-link">연합 및 협계제</a>
+        </nav>
+      </div>
+
+      <!-- Main content -->
+      <div class="flex-1 flex flex-col">
+        <!-- Header -->
+        <div class="bg-white shadow-sm p-4 flex justify-between items-center">
+          <div class="flex space-x-4">
+            <a href="#" class="px-3 py-2 bg-blue-500 text-white rounded-md"
+              >안내사항</a
+            >
+            <a
+              href="ex_sendmail.html"
+              class="px-3 py-2 text-gray-700 hover:bg-gray-200 rounded-md"
+              >이메일</a
+            >
+            <a
+              href="#"
+              class="px-3 py-2 text-gray-700 hover:bg-gray-200 rounded-md"
+              >보고서</a
+            >
+            <a
+              href="#"
+              class="px-3 py-2 text-gray-700 hover:bg-gray-200 rounded-md"
+              >기사자료</a
+            >
+            <a
+              href="#"
+              class="px-3 py-2 text-gray-700 hover:bg-gray-200 rounded-md"
+              >조직도</a
+            >
+          </div>
+          <div class="text-gray-600">남은시간: 50:00</div>
+        </div>
+
+        <!-- Content -->
+        <div class="flex-1 p-6 overflow-auto">
+          <div class="bg-white h-full rounded-lg p-4 text-gray-700 shadow">
+            <h2 class="text-xl font-semibold mb-4">안내사항 페이지 구성</h2>
+            <p>
+              스크롤 방식으로 내리면서 모든 내용을 순차적으로 접할 수 있게 구성
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // Any required JavaScript can be added here
+    </script>
+  </body>
+</html>
